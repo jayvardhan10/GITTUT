@@ -1,0 +1,2 @@
+#we add those files here which we don't want to commit or don't want to be shown in the git status
+mylogggs.log

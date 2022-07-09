@@ -1,0 +1,15 @@
+git diff : compares the current working directory with the staging area
+git diff --staged : compares the staging area with previous commit
+git commit -a -m "some message" : skips the staging area and directly commits all the files
+                                            but if there is an untracked file then it will not
+                                            get commited.
+git status : used to check the current status of the git.
+git log : shows the previous commits.
+git log - p -2 : shows the last 2 commits.
+q : used for exiting.
+git rm filename : used to delete a file.
+git mv oldfilename newfilename : used to rename a file.
+.gitignore : this is used to ignore some specific files or directories, we just add the files
+             which we want to ignore in this .gitignore file, and then git ignores those files,
+             for directories we use dir/.
+git rm --cached filename : used to untrack a file.

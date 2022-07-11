@@ -30,3 +30,12 @@ git remote add origin https://github.com/jayvardhan10/GITTUT.git : used to add t
                                                                     pushing or pulling the
                                                                     code to the repository.
 git remote -v : shows the links for pulling and pushing.
+git push origin master : for pushing into the repository.
+
+alias command:
+git config --global alias.st status : used for telling git that now whenever I use git st
+                                      then understand that I am talking about git status, this
+                                      same alias command can be used with different commands.
+git config --global alias.unstage 'restore --staged' : this tells git that now whenever,
+                                                          I write git unstage, perform
+                                                          git restore --staged filename.

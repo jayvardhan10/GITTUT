@@ -23,3 +23,10 @@ git log --since=5.months : shows the logs for the last 5 months.
     GO TO GIT LOG DOCS(https://git-scm.com/docs/git-log) FOR MORE COMMANDS.
 git comit --amend : this command is used for ammending the previous commit, the vim editor will
                     open up and then we can do the changes.
+git restore --staged filename : this is used to unstage the file.
+git checkout -- filename : to make your file same as it was in the previous commit.
+git checkout -f : to make your working directory same as your previous commit.
+git remote add origin https://github.com/jayvardhan10/GITTUT.git : used to add the remote for
+                                                                    pushing or pulling the
+                                                                    code to the repository.
+git remote -v : shows the links for pulling and pushing.

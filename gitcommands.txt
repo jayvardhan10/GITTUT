@@ -39,3 +39,7 @@ git config --global alias.st status : used for telling git that now whenever I u
 git config --global alias.unstage 'restore --staged' : this tells git that now whenever,
                                                           I write git unstage, perform
                                                           git restore --staged filename.
+git restore filename : used to discard changes in working directory (use cautiously).
+git checkout -b newbranchname : this command creats a new branch with the name newbranchname.
+                                This command also switches to the newbranchname branch.
+                               

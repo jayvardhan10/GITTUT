@@ -59,3 +59,6 @@ git branch --no-merged : to check the branches which are not yet merged.
 just writing down something to understand the working of git merge.
 writing down some more.
 git push origin branchname : this is used to push any branch other than master to remote.
+git push origin branchname:remotebranchname : this is used if we want our branchname to be
+                                                remotebranchname in the remote.
+git push -d origin remotebranchname : deletes the remote branch remotebranchname.

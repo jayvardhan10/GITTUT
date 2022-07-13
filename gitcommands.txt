@@ -55,3 +55,4 @@ git branch -d branchname : deletes the branch if it has been merged and gives an
 git branch -D branchname : this deletes the branch even if it has not been merged.
 git branch --merged : to check the branches which are already merged.
 git branch --no-merged : to check the branches which are not yet merged.
+just writing down something to understand the working of git merge.

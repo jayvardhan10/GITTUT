@@ -52,8 +52,10 @@ git checkout branchname : used for switching to the branchname branch.
 git merge newbranchname : merges the newbranchname with the master branch.                               
 git branch -d branchname : deletes the branch if it has been merged and gives an error if
                             this branch has not been merged.
+deleted some commands to check the flow of git merge.
 git branch -D branchname : this deletes the branch even if it has not been merged.
 git branch --merged : to check the branches which are already merged.
 git branch --no-merged : to check the branches which are not yet merged.
 just writing down something to understand the working of git merge.
 writing down some more.
+git push origin branchname : this is used to push any branch other than master to remote.

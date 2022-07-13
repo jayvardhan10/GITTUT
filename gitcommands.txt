@@ -58,3 +58,4 @@ git branch --merged : to check the branches which are already merged.
 git branch --no-merged : to check the branches which are not yet merged.
 just writing down something to understand the working of git merge.
 writing down some more.
+git push origin branchname : this is used to push any branch other than master to remote.
